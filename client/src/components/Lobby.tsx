@@ -1,12 +1,15 @@
 import React, { useContext, useEffect } from "react";
 import { PageContext } from "../Context";
 
-export const Home = () => {
+export const Lobby = () => {
   const { value, setValue } = useContext(PageContext);
 
+  useEffect(() => {
+    return () => {};
+  });
 
   useEffect(() => {
-    setValue("home");
+    setValue("lobby");
 
     return () => {};
   });
@@ -14,7 +17,7 @@ export const Home = () => {
   return (
     <>
       <h1>{value}</h1>
-      <div>Home</div>
+      <div>Lobby</div>
     </>
   );
 };

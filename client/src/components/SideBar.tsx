@@ -1,21 +1,23 @@
 import { useContext } from "react";
-import { UserContext } from "../userContext";
+import { PageContext } from "../Context";
 
-import {
-   Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const SideBar = () => {
-  const msg = useContext(UserContext);
+  const msg = useContext(PageContext);
 
   return (
     <div className="side-bar">
       <h1>LOGO</h1>
 
-      <div className={msg === 0 ? "menu-item-active" : "menu-item-no-active"}>
+      <div
+        className={msg === "home" ? "menu-item-active" : "menu-item-no-active"}
+      >
         <Link to="/home">Home</Link>
       </div>
-      <div className={msg === 1 ? "menu-item-active" : "menu-item-no-active"}>
+      <div
+        className={msg === "about" ? "menu-item-active" : "menu-item-no-active"}
+      >
         <Link to="/about">About</Link>
       </div>
     </div>

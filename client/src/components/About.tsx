@@ -1,14 +1,12 @@
 import React, { useContext, useEffect } from "react";
-import { UserContext } from "../userContext";
+import { PageContext } from "../Context";
 
 export const About = () => {
-  const { value, setValue } = useContext(UserContext);
+  const { value, setValue } = useContext(PageContext);
 
   useEffect(() => {
-    return () => {
-      console.log("About loaded");
-      setValue(2);
-    };
+    setValue("about");
+    return () => {};
   });
 
   return (
