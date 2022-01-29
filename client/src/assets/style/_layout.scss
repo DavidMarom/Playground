@@ -7,13 +7,15 @@
   min-width: 200px;
   background-color: $sidebar-bg;
   color: $sidebar-text-light;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
   background-color: $content-bg;
   color: $content-text;
   height: 94vh;
-
 }
 
 .right-side{
