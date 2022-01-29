@@ -1,35 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import "./assets/style/global.scss";
 import { SideBar } from "./components/SideBar";
 
-import {
-  LinkProps,
-  Routes,
-  Route,
-  Outlet,
-  Link,
-  useMatch,
-  useResolvedPath,
-} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import { Home } from "./components/Home";
 import { About } from "./components/About";
+import { TopBar } from "./components/TopBar";
+import { UserContext } from "./userContext";
 
 function App() {
-  return (
-    <div className="overall-layout">
-      <SideBar />
+  const [value, setValue] = useState(7);
+  // const providerValue = useMemo(() => ({ value, setValue }), [value, setValue]);
 
-      <div className="right-side">
-        <div className="top-bar">Top-bar</div>
-        <div className="content">
-          <Routes>
-            <Route path="home" element={<Home />} />
-            <Route path="about" element={<About />} />
-          </Routes>
+  return (
+    <>
+      <UserContext.Provider value={{ value, setValue }}>
+        <div className="overall-layout">
+          <SideBar />
+
+          <div className="right-side">
+            <TopBar />
+            <div className="content">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/about" element={<About />} />
+              </Routes>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      </UserContext.Provider>
+    </>
   );
 }
 

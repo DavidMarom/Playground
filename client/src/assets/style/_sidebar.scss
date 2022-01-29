@@ -1,10 +1,14 @@
 .menu-item-active{
   padding-left: 20px;
   padding-right: 20px;
-  background-color: $sidebar-active-bg;
+  background-color: #ff0000;
+  // background-color: $sidebar-active-bg;
   padding-top:10px;
   padding-bottom:10px;
-  color:#f33434;
+  color:#54f334 !important;
+  a{
+    color: #e5ff00 !important;
+  }
 }
 
 .menu-item-no-active{
@@ -13,5 +17,8 @@
   // background-color: $sidebar-active-bg;
   padding-top:10px;
   padding-bottom:10px;
-  color:#35a519;
+  color:#35a519 !important;
+  a{
+    color: #0059ff !important;
+  }
 }

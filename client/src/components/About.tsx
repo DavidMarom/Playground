@@ -1,5 +1,20 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
+import { UserContext } from "../userContext";
 
 export const About = () => {
-  return <div>About</div>;
+  const { value, setValue } = useContext(UserContext);
+
+  useEffect(() => {
+    return () => {
+      console.log("About loaded");
+      setValue(2);
+    };
+  });
+
+  return (
+    <>
+      <h1>{value}</h1>
+      <div>About</div>
+    </>
+  );
 };
