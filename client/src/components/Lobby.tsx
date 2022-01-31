@@ -5,10 +5,6 @@ export const Lobby = () => {
   const { value, setValue } = useContext(PageContext);
 
   useEffect(() => {
-    return () => {};
-  });
-
-  useEffect(() => {
     setValue("lobby");
 
     return () => {};
