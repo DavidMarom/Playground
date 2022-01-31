@@ -3,7 +3,7 @@
 This project aims to be a place to practice, learn together, and eventually serve as a showcase of different libraries and coding practices.
 Participants are encoraged to document their experiments and share what they learn with the community.
 
-# Languages and frameworks
+## Languages and frameworks
 React, TypeScript, Node.JS
 
 ## Roadmap:
@@ -15,10 +15,11 @@ React, TypeScript, Node.JS
 .
 .
 
-## How to add an experiment to the playground
+## Want to add your own experiment to the playground? good!
 - Announce on Discord
 - Create a branch
 - Create a page on project itself and put your code there
+
 ## Guidelines
 - Use branches
 - Document your code more than usual
