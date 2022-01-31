@@ -26,4 +26,4 @@ React, TypeScript, Node.JS
 - Share your progress on our Discord channel: [https://discord.gg/g5fStjuE3N](https://discord.gg/g5fStjuE3N)
 
 # Participants (add yourself!)
-David : [https://twitter.com/DavidMaromIl](@DavidMaromIl)
+David : [@DavidMaromIl](https://twitter.com/DavidMaromIl)
