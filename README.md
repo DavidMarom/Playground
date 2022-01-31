@@ -1,4 +1,4 @@
-# the Playground Project
+# The Playground Project
 
 This project aims to be a place to practice, learn together, and eventually serve as a showcase of different libraries and coding practices.
 Participants are encoraged to document their experiments and share what they learn with the community.
@@ -10,7 +10,8 @@ React, TypeScript, Node.JS
 - Debounce
 - Validation using regex
 - Redux
-.
+- Testings
+- 
 .
 .
 
@@ -23,3 +24,6 @@ React, TypeScript, Node.JS
 - Document your code more than usual
 - Let the community know what you are planning on doing - allow others to join or just follow your progress
 - Share your progress on our Discord channel: [https://discord.gg/g5fStjuE3N](https://discord.gg/g5fStjuE3N)
+
+# Participants (add yourself!)
+David : [https://twitter.com/DavidMaromIl](@DavidMaromIl)

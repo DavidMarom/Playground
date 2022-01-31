@@ -9,7 +9,7 @@ import { Lobby } from "./components/Lobby";
 import { TopBar } from "./components/TopBar";
 import { PageContext } from "./Context";
 
-export const App = () => {
+export const App: React.FC = () => {
   const [value, setValue] = useState("lobby");
   // const providerValue = useMemo(() => ({ value, setValue }), [value, setValue]);
 

@@ -1,13 +1,13 @@
 import React, { useContext, useEffect } from "react";
 import { PageContext } from "../Context";
 
-export const Lobby = () => {
+export const Lobby: React.FC = () => {
   const { value, setValue } = useContext(PageContext);
 
   useEffect(() => {
     setValue("lobby");
 
-    return () => {};
+    return () => { };
   });
 
   return (
