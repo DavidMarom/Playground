@@ -4,8 +4,7 @@ import { SideBar } from "./components/SideBar";
 import { Routes, Route } from "react-router-dom";
 
 import { Home } from "./components/Home";
-import { About } from "./components/About";
-import { Lobby } from "./components/Lobby";
+import { Debounce } from "./components/Debounce";
 import { TopBar } from "./components/TopBar";
 import { PageContext } from "./Context";
 
@@ -22,9 +21,9 @@ export const App: React.FC = () => {
           <TopBar />
           <div className="content">
             <Routes>
-              <Route path="/" element={<Lobby />} />
+              <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/debounce" element={<Debounce />} />
             </Routes>
           </div>
         </div>

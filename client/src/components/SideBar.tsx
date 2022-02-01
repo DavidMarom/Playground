@@ -15,11 +15,13 @@ export const SideBar = () => {
       >
         <Link to="/home">Home</Link>
       </div>
+      
       <div
-        className={msg === "about" ? "menu-item-active" : "menu-item-no-active"}
+        className={msg === "abodebounceut" ? "menu-item-active" : "menu-item-no-active"}
       >
-        <Link to="/about">About</Link>
+        <Link to="/debounce">Debounce</Link>
       </div>
+      <p>Sidebar needs design</p>
     </div>
   );
 };
