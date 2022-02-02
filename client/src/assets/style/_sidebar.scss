@@ -1,24 +1,22 @@
-.menu-item-active{
-  padding-left: 20px;
+.menu-item-active {
+  padding-left: 20px !important;
   padding-right: 20px;
-  background-color: #ff0000 !important;
-  // background-color: $sidebar-active-bg;
-  padding-top:10px;
-  padding-bottom:10px;
-  color:#54f334 !important;
-  a{
-    color: #e5ff00 !important;
+  background-color: $sidebar-active-bg;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  a {
+    color: $sidebar-text-light;
+    text-decoration: none;
   }
 }
 
-.menu-item-no-active{
+.menu-item-no-active {
   padding-left: 20px;
   padding-right: 20px;
-  // background-color: $sidebar-active-bg;
-  padding-top:10px;
-  padding-bottom:10px;
-  color:#35a519 !important;
-  a{
-    color: #0059ff !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  a {
+    color: $sidebar-text-dim;
+    text-decoration: none;
   }
 }
