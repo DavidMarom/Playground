@@ -1,22 +1,20 @@
 .menu-item-active {
-  padding-left: 20px !important;
-  padding-right: 20px;
+  color: $sidebar-text-light;
   background-color: $sidebar-active-bg;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  a {
-    color: $sidebar-text-light;
-    text-decoration: none;
-  }
+  padding: 15px;
 }
 
 .menu-item-no-active {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  a {
-    color: $sidebar-text-dim;
-    text-decoration: none;
+  color: $sidebar-text-dim;
+  padding: 15px;
+  &:hover {
+    color: $sidebar-text-light;
   }
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  color: #6785a7;
 }

@@ -4,11 +4,8 @@ import { PageContext } from "../Context";
 export const Home = () => {
   const { value, setValue } = useContext(PageContext);
 
-
   useEffect(() => {
     setValue("home");
-
-    return () => {};
   });
 
   return (

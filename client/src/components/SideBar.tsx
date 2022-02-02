@@ -6,22 +6,27 @@ export const SideBar = () => {
   // const msg = useContext(PageContext);
   const { value } = useContext(PageContext);
 
-  return (
-    value ?
-      <div className="side-bar">
-        <h1>LOGO</h1>
+  return value ? (
+    <div className="side-bar">
+      <div className="logo"><h1>LOGO</h1></div>
 
-        <div className={value === "home" ? "menu-item-active" : "menu-item-no-active"} >
-          <Link to="/home">Home</Link>
-        </div>
+      <Link to="/">
+        <div className={value === "lobby" ? "menu-item-active" : "menu-item-no-active"}>Lobby</div>
+      </Link>
 
-        <div className={value === "debounce" ? "menu-item-active" : "menu-item-no-active"} >
-          <Link to="/debounce">Debounce</Link>
-        </div>
-        <p>Sidebar needs design</p>
-      </div>
+      <Link to="/home">
+        <div className={value === "home" ? "menu-item-active" : "menu-item-no-active"}>Home</div>
+      </Link>
 
-      :
-      <p>loading</p>
-  )
+      <Link to="/debounce">
+        <div className={value === "debounce" ? "menu-item-active" : "menu-item-no-active"}>Debounce</div>
+      </Link>
+
+
+
+      <p>Sidebar needs design</p>
+    </div >
+  ) : (
+    <p>loading</p>
+  );
 };

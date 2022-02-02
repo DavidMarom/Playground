@@ -10,7 +10,6 @@ export const Debounce: React.FC = () => {
 
 	useEffect(() => {
 		setValue("debounce");
-		return () => { };
 	});
 
 	return (
