@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://res.cloudinary.com/dojmo7vcc/image/upload/v1643878768/pg-logo_khv3vg.png" width="400px" alt="@LycheeOrg"></p>
+
 # The Playground Project
 ### A playground for developers who want to try new things and get help from others just like them
 
