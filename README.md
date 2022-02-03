@@ -1,5 +1,5 @@
 # The Playground Project
-### A playground for developers who wants to try new things and get help from others just like them
+### A playground for developers who want to try new things and get help from others just like them
 
 This project is a place to practice, learn together, and eventually serve as a showcase of different libraries and coding practices.
 Participants are encoraged to document their experiments and share what they learn with others.
