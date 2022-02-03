@@ -1,12 +1,18 @@
 # The Playground Project
+## A playground for developers who wants to try new things and get help from others just like them
 
-This project aims to be a place to practice, learn together, and eventually serve as a showcase of different libraries and coding practices.
-Participants are encoraged to document their experiments and share what they learn with the community.
+This project is a place to practice, learn together, and eventually serve as a showcase of different libraries and coding practices.
+Participants are encoraged to document their experiments and share what they learn with others.
 
-## Languages and frameworks
+### Languages and frameworks
 React, TypeScript, Node.JS
 
-## Roadmap:
+## Quick Start
+- clone
+- run client with `npm start`
+- 
+
+### Roadmap:
 - Debounce
 - Validation using regex
 - Redux
@@ -15,12 +21,12 @@ React, TypeScript, Node.JS
 .
 .
 
-## Want to add your own experiment to the playground? good!
+### Want to add your own experiment to the playground? good!
 - Announce on Discord
 - Create a branch
 - Create a page on project itself and put your code there
 
-## Guidelines
+### Guidelines
 - Use branches
 - Document your code more than usual
 - Let the community know what you are planning on doing - allow others to join or just follow your progress
