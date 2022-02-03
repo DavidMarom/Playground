@@ -25,9 +25,9 @@ React, TypeScript, Node.JS
 .
 
 ### Want to add your own experiment to the playground? good!
-- Announce on Discord
+- Announce on Discord [https://discord.gg/g5fStjuE3N](https://discord.gg/g5fStjuE3N)
 - Create a branch
-- Create a page on project itself and put your code there
+- Create a page-component in the project itself and put your code there (dont forget to push :) )
 
 ### Guidelines
 - Use branches
