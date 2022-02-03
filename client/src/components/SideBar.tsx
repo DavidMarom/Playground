@@ -22,9 +22,21 @@ export const SideBar = () => {
         <div className={value === "debounce" ? "menu-item-active" : "menu-item-no-active"}>Debounce</div>
       </Link>
 
+      <Link to="/page1">
+        <div className={value === "page1" ? "menu-item-active" : "menu-item-no-active"}>page01</div>
+      </Link>
+
+      <Link to="/page2">
+        <div className={value === "page2" ? "menu-item-active" : "menu-item-no-active"}>page02</div>
+      </Link>
+
+      <Link to="/page3">
+        <div className={value === "page3" ? "menu-item-active" : "menu-item-no-active"}>page03</div>
+      </Link>
 
 
-      <p>Sidebar needs design</p>
+
+
     </div >
   ) : (
     <p>loading</p>

@@ -5,6 +5,9 @@ import { Routes, Route } from "react-router-dom";
 
 import { Lobby } from "./components/Lobby";
 import { Home } from "./components/Home";
+import { Page1 } from "./components/Page1";
+import { Page2 } from "./components/Page2";
+import { Page3 } from "./components/Page3";
 import { Debounce } from "./components/Debounce";
 import { TopBar } from "./components/TopBar";
 
@@ -26,6 +29,9 @@ export const App: React.FC = () => {
               <Route path="/" element={<Lobby />} />
               <Route path="/home" element={<Home />} />
               <Route path="/debounce" element={<Debounce />} />
+              <Route path="/page1" element={<Page1 />} />
+              <Route path="/page2" element={<Page2 />} />
+              <Route path="/page3" element={<Page3 />} />
             </Routes>
           </div>
         </div>
