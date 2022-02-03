@@ -10,7 +10,7 @@ Participants are encoraged to document their experiments and share what they lea
 ### Languages and frameworks
 React, TypeScript, Node.JS
 
-## Quick Start
+## ⚡ Quick Start
 - clone
 - run client with `npm start`
 - 
