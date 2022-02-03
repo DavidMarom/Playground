@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import "./assets/style/global.scss";
+import '@nosferatu500/react-sortable-tree/style.css';
+
 import { SideBar } from "./components/SideBar";
 import { Routes, Route } from "react-router-dom";
 
 import { Lobby } from "./components/Lobby";
 import { Home } from "./components/Home";
+import { Tree } from "./components/Tree";
 import { Page1 } from "./components/Page1";
 import { Page2 } from "./components/Page2";
 import { Page3 } from "./components/Page3";
@@ -29,6 +32,7 @@ export const App: React.FC = () => {
               <Route path="/" element={<Lobby />} />
               <Route path="/home" element={<Home />} />
               <Route path="/debounce" element={<Debounce />} />
+              <Route path="/tree" element={<Tree />} />
               <Route path="/page1" element={<Page1 />} />
               <Route path="/page2" element={<Page2 />} />
               <Route path="/page3" element={<Page3 />} />
