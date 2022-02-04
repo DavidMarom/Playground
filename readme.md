@@ -1,6 +1,7 @@
 <p align="center">
 <img src="https://res.cloudinary.com/dojmo7vcc/image/upload/v1643878768/pg-logo_khv3vg.png" width="400px" alt="@LycheeOrg"></p>
 
+[![Website][website-shield]](https://playgroundproj.herokuapp.com)
 [![MIT License][license-shield]](https://github.com/DavidMarom/Playground/blob/master/LICENSE)
 
 # The Playground Project
