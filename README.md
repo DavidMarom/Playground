@@ -1,8 +1,12 @@
 <p align="center">
 <img src="https://res.cloudinary.com/dojmo7vcc/image/upload/v1643878768/pg-logo_khv3vg.png" width="400px" alt="@LycheeOrg"></p>
 
+[![React][React]]
+
 # The Playground Project
-### A playground for developers who want to try new things and get help from others just like them
+### A playground for developers who want to try new stuff together
+
+Live App: [https://playgroundproj.herokuapp.com/](https://playgroundproj.herokuapp.com/)
 
 This project is a place to practice, learn together, and eventually serve as a showcase of different libraries and coding practices.
 Participants are encoraged to document their experiments and share what they learn with others.
