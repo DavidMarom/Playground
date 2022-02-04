@@ -19,14 +19,12 @@ React, TypeScript, Node.JS
 - run client with `npm start`
 - 
 
-### Roadmap:
-- Debounce
-- Validation using regex
+### What we are looking for:
+- Validation using regex example
 - Redux
-- Testings
-- 
-.
-.
+- Testing scripts
+- socket.io example
+- scss - design in general
 
 ### Want to add your own experiment to the playground? good!
 - Announce on Discord [https://discord.gg/g5fStjuE3N](https://discord.gg/g5fStjuE3N)
@@ -38,6 +36,3 @@ React, TypeScript, Node.JS
 - Document your code more than usual
 - Let the community know what you are planning on doing - allow others to join or just follow your progress
 - Share your progress on our Discord channel: [https://discord.gg/g5fStjuE3N](https://discord.gg/g5fStjuE3N)
-
-# Participants (add yourself!)
-David : [@DavidMaromIl](https://twitter.com/DavidMaromIl)
