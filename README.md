@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://res.cloudinary.com/dojmo7vcc/image/upload/v1643878768/pg-logo_khv3vg.png" width="400px" alt="@LycheeOrg"></p>
 
-[![React][React]]
+[![MIT License][license-shield]](https://github.com/LycheeOrg/Lychee/blob/master/LICENSE)
 
 # The Playground Project
 ### A playground for developers who want to try new stuff together
