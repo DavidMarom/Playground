@@ -4,7 +4,12 @@ import SortableTree from '@nosferatu500/react-sortable-tree';
 
 export const Tree = () => {
 
-  const [treeData, setTreeData] = useState<any>(
+  interface treeNode {
+    title: string;
+    children: any;
+  }
+
+  const [treeData, setTreeData] = useState<treeNode[]>(
     [
       { title: 'Chicken', children: [{ title: 'Egg' }] },
       { title: 'Fish', children: [{ title: 'fingerline' }] },
