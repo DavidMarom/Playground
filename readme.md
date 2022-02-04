@@ -1,8 +1,8 @@
 <p align="center">
 <img src="https://res.cloudinary.com/dojmo7vcc/image/upload/v1643878768/pg-logo_khv3vg.png" width="400px" alt="@LycheeOrg"></p>
 
-https://img.shields.io/github/issues/DavidMarom/Playground
-https://img.shields.io/github/license/DavidMarom/Playground
+[![GitHub issues](https://img.shields.io/github/issues/DavidMarom/Playground)](https://github.com/DavidMarom/Playground/issues)
+[![GitHub license](https://img.shields.io/github/license/DavidMarom/Playground)](https://github.com/DavidMarom/Playground/blob/master/LICENSE)
 
 # The Playground Project
 ### A playground for developers who want to try new stuff together
