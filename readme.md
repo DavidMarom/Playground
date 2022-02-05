@@ -18,7 +18,7 @@ React, TypeScript, Node.JS
 ## ⚡ Quick Start
 - clone
 - run client with `npm start`
-- 
+- run server with `npm start`
 
 ### What we are looking for:
 - Validation using regex example
