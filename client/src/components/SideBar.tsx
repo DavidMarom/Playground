@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { PageContext } from "../Context";
 import { Link } from "react-router-dom";
 
@@ -34,8 +34,8 @@ export const SideBar = () => {
         <div className={value === "page2" ? "menu-item-active" : "menu-item-no-active"}>page02</div>
       </Link>
 
-      <Link to="/page3">
-        <div className={value === "page3" ? "menu-item-active" : "menu-item-no-active"}>page03</div>
+      <Link to="/list">
+        <div className={value === "list-page" ? "menu-item-active" : "menu-item-no-active"}>List</div>
       </Link>
 
 
