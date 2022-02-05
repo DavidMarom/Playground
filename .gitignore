@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# "public" folder on the server folder which is actually the "build" of the client. we need it in order to push to heroku
+server/public
