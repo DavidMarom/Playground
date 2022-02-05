@@ -11,9 +11,12 @@ export const Lobby: React.FC = () => {
 
   return (
     <>
-      <p>{value}</p>
-      <h1>Hello all you boys and girls...</h1>
-      <p></p>
+      <img src="https://res.cloudinary.com/dojmo7vcc/image/upload/v1644058242/Nadir_bqcvmn.png" width="200px" />
+
+      <h1>Hi!</h1>
+      <p>Welcome. If you wish to join our project as a collaborator, let us know on our Discord server: <span>
+        <a href="https://discord.gg/g5fStjuE3N" target="_blank">Click Here</a></span>
+      </p>
     </>
   );
 };
