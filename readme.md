@@ -7,7 +7,7 @@
 # The Playground Project
 ### A playground for developers who want to try new stuff together
 
-Live App: [https://playgroundproj.herokuapp.com/](https://playgroundproj.herokuapp.com/)
+🌐 Live Demo: [https://playgroundproj.herokuapp.com/](https://playgroundproj.herokuapp.com/)
 
 This project is a place to practice, learn together, and eventually serve as a showcase of different libraries and coding practices.
 Participants are encoraged to document their experiments and share what they learn with others.
@@ -18,7 +18,7 @@ React, TypeScript, Node.JS
 ## ⚡ Quick Start
 - clone
 - run client with `npm start`
-- 
+- run server with `npm start`
 
 ### What we are looking for:
 - Validation using regex example
