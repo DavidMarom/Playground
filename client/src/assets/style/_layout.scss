@@ -18,19 +18,32 @@
   height: 94vh;
 }
 
-.right-side{
+.right-side {
   display: flex;
   flex-direction: column;
-  width:100%;
+  width: 100%;
 }
 
-.top-bar{
+.top-bar {
   min-height: 50px;
   background-color: $top-bar-bg;
   color: top-bar-text;
 }
 
-
-.tree-container{
+.tree-container {
   height: 500px;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(49, 59, 107);
+  display: inline;
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+  background-color: #484d50;
+  width: 360px
 }

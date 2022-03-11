@@ -26,8 +26,8 @@ export const SideBar = () => {
         <div className={value === "tree" ? "menu-item-active" : "menu-item-no-active"}>Tree</div>
       </Link>
 
-      <Link to="/page1">
-        <div className={value === "page1" ? "menu-item-active" : "menu-item-no-active"}>page01</div>
+      <Link to="/snake">
+        <div className={value === "snake" ? "menu-item-active" : "menu-item-no-active"}>Snake</div>
       </Link>
 
       <Link to="/page2">
