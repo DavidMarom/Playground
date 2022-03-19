@@ -2,6 +2,7 @@ const userService = require('./user.service')
 
 
 async function getUsers(req, res) {
+    console.log(req)
     const users = await userService.query(req.query)
     res.send(users)
 }
