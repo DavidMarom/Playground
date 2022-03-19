@@ -9,7 +9,7 @@ import { Lobby } from "./components/Lobby";
 import { Home } from "./components/Home";
 import { Tree } from "./components/Tree";
 import { Snake } from "./components/Snake";
-import { Page2 } from "./components/Page2";
+import { Sql } from "./components/Sql";
 import { Page3 } from "./components/Page3";
 import { Debounce } from "./components/Debounce";
 import { TopBar } from "./components/TopBar";
@@ -34,7 +34,7 @@ export const App: React.FC = () => {
               <Route path="/debounce" element={<Debounce />} />
               <Route path="/tree" element={<Tree />} />
               <Route path="/snake" element={<Snake />} />
-              <Route path="/page2" element={<Page2 />} />
+              <Route path="/sql" element={<Sql />} />
               <Route path="/page3" element={<Page3 />} />
             </Routes>
           </div>

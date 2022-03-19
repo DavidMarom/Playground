@@ -30,8 +30,8 @@ export const SideBar = () => {
         <div className={value === "snake" ? "menu-item-active" : "menu-item-no-active"}>Snake</div>
       </Link>
 
-      <Link to="/page2">
-        <div className={value === "page2" ? "menu-item-active" : "menu-item-no-active"}>page02</div>
+      <Link to="/sql">
+        <div className={value === "sql" ? "menu-item-active" : "menu-item-no-active"}>SQL</div>
       </Link>
 
       <Link to="/page3">
