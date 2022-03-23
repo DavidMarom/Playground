@@ -10,7 +10,7 @@ import { Home } from "./components/Home";
 import { Tree } from "./components/Tree";
 import { Snake } from "./components/Snake";
 import { Sql } from "./components/Sql";
-import { Page3 } from "./components/Page3";
+import { UploadFile } from "./components/UploadFile";
 import { Debounce } from "./components/Debounce";
 import { TopBar } from "./components/TopBar";
 
@@ -35,7 +35,7 @@ export const App: React.FC = () => {
               <Route path="/tree" element={<Tree />} />
               <Route path="/snake" element={<Snake />} />
               <Route path="/sql" element={<Sql />} />
-              <Route path="/page3" element={<Page3 />} />
+              <Route path="/uploadfile" element={<UploadFile />} />
             </Routes>
           </div>
         </div>

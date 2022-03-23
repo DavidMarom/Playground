@@ -18,7 +18,7 @@ export const Sql = () => {
 
   useEffect(() => {
     httpService.get('user').then(res => {
-      setData(res);
+      setData(res.data);
     })
   }, [])
 

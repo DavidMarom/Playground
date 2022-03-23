@@ -34,8 +34,8 @@ export const SideBar = () => {
         <div className={value === "sql" ? "menu-item-active" : "menu-item-no-active"}>SQL</div>
       </Link>
 
-      <Link to="/page3">
-        <div className={value === "page3" ? "menu-item-active" : "menu-item-no-active"}>page03</div>
+      <Link to="/uploadfile">
+        <div className={value === "uploadfiles" ? "menu-item-active" : "menu-item-no-active"}>Upload File</div>
       </Link>
 
 

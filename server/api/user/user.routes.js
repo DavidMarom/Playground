@@ -7,6 +7,6 @@ const router = express.Router()
 // router.use(requireAuth)
 
 router.get('/', getUsers)
-router.put('/add',  add)
+router.put('/add', add)
 
 module.exports = router
