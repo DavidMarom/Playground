@@ -1,9 +1,9 @@
 
 module.exports = {
-    upload
+    aaa
 }
 
-async function upload() {
+async function aaa() {
     console.log('in file service');
     return 'ccc';
 

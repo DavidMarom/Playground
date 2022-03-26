@@ -20,10 +20,7 @@ export const UploadFile = () => {
   return (
     <>
       <h1>{value}</h1>
-
       <button onClick={handleClick}>Click</button>
-
-
     </>
   );
 };
