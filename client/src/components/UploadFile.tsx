@@ -16,6 +16,14 @@ export const UploadFile = () => {
 
   }
 
+  // const handleUploadFile = (e) =>{
+
+  //   e.preventDefault();
+  //   const data = new FormData();
+  //   data.append('file',fileData)
+
+  // }
+
 
   return (
     <>
