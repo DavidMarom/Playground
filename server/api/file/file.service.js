@@ -1,11 +1,4 @@
-
 const multer = require('multer')
-
-
-async function aaa() {
-    console.log('in file service');
-    return 'ccc';
-}
 
 const fileStorageEngine = multer.diskStorage({
     destination: (req, file, cb) => { cb(null, "./uploads2") },
@@ -15,4 +8,4 @@ const fileStorageEngine = multer.diskStorage({
 })
 
 const upload = multer({ storage: fileStorageEngine });
-module.exports = { aaa, upload }
+module.exports = { upload }

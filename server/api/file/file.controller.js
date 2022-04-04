@@ -1,4 +1,3 @@
-
 const passParams = (req, res) => {
     console.log(`${req.params.aaa}`);
 }
@@ -13,4 +12,9 @@ const single = (req, res) => {
     res.send("sent");
 }
 
-module.exports = { passParams, postBody, single }
+const insertToDB = (req, res) => {
+    console.log('req.file.filename:', req.file.filename);
+    res.send("insertToDb");
+}
+
+module.exports = { passParams, postBody, single, insertToDB }
