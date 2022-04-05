@@ -1,3 +1,6 @@
+const fs = require('fs')
+
+
 const passParams = (req, res) => {
     console.log(`${req.params.aaa}`);
 }
@@ -13,8 +16,23 @@ const single = (req, res) => {
 }
 
 const insertToDB = (req, res) => {
-    console.log('req.file.filename:', req.file.filename);
+    console.log('controller: req.file.filename:', req.file.filename);
     res.send("insertToDb");
+    // let output = fs.readFileSync('./uploads2/' + req.file.filename)
+    // console.log('file:', JSON.stringify({output}));
+
+
+
+    fs.readFile('./uploads2/' + req.file.filename, function (err, data) {
+        if (err) throw err;
+
+        const arr = data.toString().replace(/\r\n/g, '\n').split('\n');
+
+        console.log(arr);
+
+    });
+
+
 }
 
 module.exports = { passParams, postBody, single, insertToDB }

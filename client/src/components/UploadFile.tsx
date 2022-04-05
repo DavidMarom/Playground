@@ -1,7 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { PageContext } from "../Context";
 import { httpService } from '../services/httpService';
-// import { useForm } from "react-hook-form";
 
 export const UploadFile = () => {
   const { value, setValue } = useContext(PageContext);
