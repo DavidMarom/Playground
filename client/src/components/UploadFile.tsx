@@ -1,3 +1,5 @@
+// This page allows to update the users collection by uploading a txt file
+
 import { useContext, useEffect, useState } from "react";
 import { PageContext } from "../Context";
 import { httpService } from '../services/httpService';
